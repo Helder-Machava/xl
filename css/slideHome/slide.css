@@ -1,0 +1,55 @@
+/*SILDER*/
+.swiper-container {
+    overflow: hidden
+}
+
+.home {
+    /* padding:.1rem 9%;*/
+    /* margin-top: 48px;*/
+    color: red;
+    /* background-color: lightgray;*/
+    display: grid;
+
+}
+
+.home .home-slider .slide {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    /* padding-top: 2rem;*/
+
+}
+
+.home .home-slider .slide .content {
+    flex: 1 1 45rem;
+}
+
+.home .home-slider .slide .image {
+    flex: 1 1 45rem;
+}
+
+.home .home-slider .slide .image img {
+    border-radius: 1%;
+    width: 100%;
+}
+
+/*
+.home .home-slider .slide .content p{
+    color:var(--light-color);
+    font-size: 2.2rem;
+    padding:.5rem 0;
+    line-height: 1.5;
+}
+*/
+.swiper-pagination-bullet-active {
+    background: var(--cabecalho);
+}
+
+.swiper-pagination {
+    position: initial;
+
+}
+
+/*SLIDER END*/
+
